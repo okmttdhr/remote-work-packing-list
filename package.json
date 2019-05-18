@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "d": "yarn deploy",
-    "deploy": "git add . && git commit -m 'update' && git push origin master"
+    "deploy": "git add --all && git commit -m 'update' && git push origin master"
   },
   "repository": {
     "type": "git",

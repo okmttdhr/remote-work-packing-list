@@ -1,7 +1,5 @@
 d:
-	make notes
-	make okp-project
-	make remote-work-packing-list
+	make notes & make okp-project & make remote-work-packing-list
 
 notes:
 	cd ~/repositories/notes && make notes
